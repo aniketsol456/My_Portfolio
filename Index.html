@@ -75,8 +75,25 @@
             margin: 50px 0;
         }
 
+        .leftsection buttons{
+            padding: 50px;
+        }
+
+        .leftsection .btn{
+            padding: 12px;
+            background: rgb(164, 93, 230);
+            border: 2px solid whitesmoke;
+            border-radius: 8px;
+            color: black;
+            font-weight: bold;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
         .rightsection img {
             width: 80%;
+            background-color: rgb(164, 93, 230);
+            border-radius: 50px;
         }
 
         .purple {
@@ -101,11 +118,16 @@
             font-size: 2rem;
         }
 
+        .intro {
+            font-size: 1.2rem;
+            color: gray;
+        }
+
         .secondsection .box {
             background: white;
             width: 80vw;
             height: 2px;
-            margin: 45px 0;
+            margin: 65px 0;
             display: flex;
         }
 
@@ -113,7 +135,30 @@
             height: 95px;
             width: 1px;
             background-color: white;
-            margin: 5px 105px;
+            margin: 0px 170px;
+        }
+
+        .imagetop {
+            width: 30px;
+            position: relative;
+            top: -45px;
+            left: -15px;
+            border-radius: 5px;
+        }
+
+        .verticaltitle {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 1.5rem;
+        }
+
+        .verticaldesc {
+            position: relative;
+            top: 85px;
+            color: gray;
+            width: 150px;
+            font-size: small;
         }
 
         .thirdsection {
@@ -141,22 +186,14 @@
             margin: 5px 105px;
         }
 
-        .imagetop {
-            width: 30px;
-            position: relative;
-            top: -45px;
-            left: -15px;
-            border-radius: 5px;
-        }
-
-        .verticaltitle {
+        .verticaltitle1 {
             position: relative;
             top: 75px;
             width: 150px;
             font-size: 1.5rem;
         }
 
-        .verticaldesc {
+        .verticaldesc1 {
             position: relative;
             top: 85px;
             color: gray;
@@ -164,8 +201,32 @@
             font-size: small;
         }
 
-        .intro{
-            top: 250px;
+        footer {
+            background-color: rgb(164, 93, 230);
+            color: black;
+            margin: 5px 65px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 90px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 225px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+        }
+
+        @media screen and (max-width: 2000px) {
+          
         }
 
     </style>
@@ -192,6 +253,10 @@
                 Hey, My name is <span class="purple"><br />Aniket Solanki.</span>
                 <div>and Aspiring as a</div>
                 <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download CV</button>
+                    <button class="btn">Visit GitHub</button>
+                </div>
             </div>
             <div class="rightsection">
                 <img src="Aniket.png" alt="">
@@ -201,6 +266,11 @@
         <section class="secondsection">
             <span class="text-gray">My Intro</span>
             <h1>About Me</h1>
+            <div class="intro">
+                Hey, I am Aniket Solanki, a Fullstack Web Developer and App Developer with certifications and skills in
+                coding and problem-solving. These skills help users and people by creating efficient, user-friendly
+                applications and websites.Collaborate with me to leverage these skills for innovative and impactful
+                projects.</div>
             <div class="box">
                 <div class="vertical">
                     <img class="imagetop" src="Symbol1.jpg" alt="">
@@ -219,9 +289,7 @@
                     <div class="verticaltitle">Support</div>
                     <div class="verticaldesc">I will available 24/7 online Support.</div>
                 </div>
-                <div class="intro">
-                    My name is Solanki Aniket. 
-                </div>
+
             </div>
         </section>
         <hr>
@@ -229,16 +297,37 @@
             <h1>My Services</h1>
             <div class="box">
                 <div class="vertical1">
-                    Web Developement
+                    <div class="vertical1title">Web Developement</div>
                 </div>
                 <div class="vertical1">
-                    App Developement
+                    <div class="vertical1title">App Developement</div>
                 </div>
                 <div class="vertical1"></div>
                 <div class="vertical1"></div>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Aniket's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About Me</li>
+                    <li>Services</li>
+                    <li>Projects</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
+            <div class="footer-third"></div>
+            <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169;aniketsportfolio.com | All right reserved
+        </div>
+    </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <!-- Setup and start animation! -->
     <script>
