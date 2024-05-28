@@ -1,7 +1,326 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
-    background: black;
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 85px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(164, 93, 230);
+}
+
+main hr {
+    border: 0;
+    background: #9c97f1;
+    height: 1.2px;
+    margin: 10px 85px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+}
+
+.leftsection {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.leftsection .buttons {
+    padding: 50px;
+}
+
+.leftsection .btn {
+    padding: 12px;
+    background: rgb(164, 93, 230);
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.rightsection img {
+    width: 80%;
+    background-color: rgb(164, 93, 230);
+    box-shadow: 8px 7px 8px white;
+    border-radius: 50px;
+}
+
+.purple {
+    color: rgb(164, 93, 230);
+}
+
+.text-gray {
+    color: gray;
+}
+
+#element {
+    color: rgb(164, 93, 230);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.secondsection h1 {
+    font-size: 2rem;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.secondsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 65px 0;
+    display: flex;
+}
+
+.secondsection .vertical {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 170px;
+}
+
+.imagetop {
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: -15px;
+    border-radius: 5px;
+}
+
+.verticaltitle {
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 1.5rem;
+}
+
+.verticaldesc {
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px;
+    font-size: small;
+}
+
+.thirdsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.text-gray1 {
+    color: gray;
+}
+
+.thirdsection h1 {
+    font-size: 2rem;
+}
+
+.thirdsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 45px 0;
+    display: flex;
+}
+
+.thirdsection .vertical1 {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 5px 140px;
+}
+
+.imagetop1 {
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: -15px;
+    border-radius: 5px;
+}
+
+.verticaltitle1 {
+    position: relative;
+    top: 95px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+.verticaldesc1 {
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px;
+    font-size: small;
+}
+
+.fourthsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fourthsection h1 {
+    font-size: 2rem;
+}
+
+.fourthsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 45px 0;
+    display: flex;
+}
+
+.fourthsection .vertical2 {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 5px 140px;
+}
+
+.imagetop2 {
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: -15px;
+    border-radius: 5px;
+}
+
+.verticaltitle2 {
+    position: relative;
+    top: 95px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+.verticaldesc2 {
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px;
+    font-size: small;
+}
+
+.fifthsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+}
+
+.fifthsection h1 {
+    font-size: 2rem;
+}
+
+.fifthsection .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 45px 0;
+    display: flex;
+}
+
+.fifthsection .vertical3 {
+    height: 95px;
+    width: 1px;
+    background-color: white;
+    margin: 0px 300px;
+}
+
+.imagetop3 {
+    width: 30px;
+    position: relative;
+    top: -45px;
+    left: -15px;
+    border-radius: 5px;
+}
+
+.verticaltitle3 {
+    position: relative;
+    top: 95px;
+    width: 200px;
+    font-size: 1.5rem;
+}
+
+.verticaldesc3 {
+    position: relative;
+    top: 85px;
+    color: gray;
+    width: 150px;
+    font-size: small;
+}
+
+footer {
+    background-color: rgb(164, 93, 230);
+    color: black;
+    margin: 5px 65px;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 90px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 225px;
+}
+
+footer .footer-rights {
+    text-align: center;
+}
+
+@media screen and (max-width: 2000px) {
+
 }
